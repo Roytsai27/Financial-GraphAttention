@@ -3,7 +3,7 @@ This is our implementation for the paper:
 
 > FinGAT: A Financial Graph Attention Networkto Recommend Top-K Profitable Stocks
 
-Submitting to ECMLPKDD'2020
+Submitting to ICDM'2020
 
 ## Requirements
 * pytorch==1.0.0
