@@ -1,9 +1,7 @@
 # FinGAT: A Financial Graph Attention Networkto Recommend Top-K Profitable Stocks
-This is our implementation for the paper:
+This is our implementation for the [paper](https://arxiv.org/abs/2106.10159):
+FinGAT: A Financial Graph Attention Networkto Recommend Top-K Profitable Stocks
 
-> FinGAT: A Financial Graph Attention Networkto Recommend Top-K Profitable Stocks
-
-Under review of TKDE
 
 ## Requirements
 * pytorch==1.0.0
@@ -11,7 +9,8 @@ Under review of TKDE
 * pandas==0.25.3
 
 ## Model architecture
-![](https://i.imgur.com/ABP1ci6.jpg)
+![](https://i.imgur.com/lkCA1Rt.png)
+
 
 
 ## How to train the model
@@ -31,6 +30,9 @@ e.g. python3 train.py --epoch 10 --l2 1e-6 etc.
 --device: The device name for training, if train with cpu please use:"cpu"
 ```
 
-## Reslut
-![](https://i.imgur.com/uF1RFaO.png)
+## Result
+![](https://i.imgur.com/ANEXmfH.png)
+![](https://i.imgur.com/e8KmLKU.png)
+![](https://i.imgur.com/DGuClLM.png)
+
 
